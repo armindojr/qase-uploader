@@ -1,5 +1,1 @@
-const qaseLib = require('./src/qase-module')
-
-module.exports = {
-    qaseLib
-}
+module.exports = require('./src/qaseSender')

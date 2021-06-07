@@ -1,0 +1,277 @@
+{
+  "stats": {
+    "suites": 59,
+    "tests": 305,
+    "passes": 242,
+    "pending": 21,
+    "failures": 42,
+    "start": "2021-06-04T16:43:43.365Z",
+    "end": "2021-06-04T17:02:03.922Z",
+    "duration": 1100557,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "15754213-0b17-498d-97cb-22dbb96e66d1",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "53ffd855-7ccd-4886-a5a1-53357ff703cb",
+          "title": "Auth/Login",
+          "fullFile": "/path/to/file.spec.js",
+          "file": "/path/to/file.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PROJ-123 - Success test",
+              "fullTitle": "Auth/Login PROJ-123 - Success test",
+              "timedOut": false,
+              "duration": 1941,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "test context",
+              "code": "test code",
+              "err": {},
+              "uuid": "5b95880f-f9b2-432c-ab11-9a9e7625e145",
+              "parentUUID": "53ffd855-7ccd-4886-a5a1-53357ff703cb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PROJ-124 - Failed test",
+              "fullTitle": "Auth/Login PROJ-124 - Failed test",
+              "timedOut": false,
+              "duration": 2865,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "test context",
+              "err": {},
+              "uuid": "948e708e-fbbb-4362-a378-8208d31c1294",
+              "parentUUID": "53ffd855-7ccd-4886-a5a1-53357ff703cb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b95880f-f9b2-432c-ab11-9a9e7625e145"
+          ],
+          "failures": [
+            "948e708e-fbbb-4362-a378-8208d31c1294"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 35301,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 70000
+        },
+        {
+          "uuid": "5936e496-3be6-4147-ba4e-094c733f7019",
+          "title": "Auth/Logout",
+          "fullFile": "/path/to/file.spec.js",
+          "file": "/path/to/file.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Auth/Logout \"before each\" hook",
+              "timedOut": false,
+              "duration": 1138,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "test code",
+              "err": {
+                "message": "TypeError: Cannot read property 'accessToken' of undefined",
+                "estack": "TypeError: Cannot read property 'accessToken' of undefined\n    at Context.<anonymous>",
+                "diff": null
+              },
+              "uuid": "1cec0af5-d857-4e6c-b05b-c682fa10cc3f",
+              "parentUUID": "5936e496-3be6-4147-ba4e-094c733f7019",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PROJ-12 - Skipped by failed on hook",
+              "fullTitle": "Auth/Logout PROJ-12 - Skipped by failed on hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "test code",
+              "err": {},
+              "uuid": "ec492208-7da2-41e6-995b-1b929d41bdf8",
+              "parentUUID": "5936e496-3be6-4147-ba4e-094c733f7019",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "PROJ-13 - Skipped by failed on hook(2)",
+              "fullTitle": "Auth/Logout PROJ-13 - Skipped by failed on hook(2)",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "test code",
+              "err": {},
+              "uuid": "ce3a1d5d-3502-443f-ad65-c75d12e5d336",
+              "parentUUID": "5936e496-3be6-4147-ba4e-094c733f7019",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ec492208-7da2-41e6-995b-1b929d41bdf8",
+            "ce3a1d5d-3502-443f-ad65-c75d12e5d336"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 49022,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 70000
+        },
+        {
+          "uuid": "f9fd0f27-a157-4e0f-aa02-3d61e20cb26d",
+          "title": "Auth/Reset time",
+          "fullFile": "/path/to/file.spec.js",
+          "file": "/path/to/file.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PROJ-64 - Skipped test",
+              "fullTitle": "Auth/Reset time PROJ-64 - Skipped test",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "b36a4d43-7263-4221-ba6a-0cdc5405b61f",
+              "parentUUID": "f9fd0f27-a157-4e0f-aa02-3d61e20cb26d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PROJ-65 - Skipped test(2)",
+              "fullTitle": "Auth/Reset time PROJ-65 - Skipped test(2)",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "67fbd0b5-4c98-4bde-baa8-ef903c52b105",
+              "parentUUID": "f9fd0f27-a157-4e0f-aa02-3d61e20cb26d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PROJ-66 - Skipped test(3)",
+              "fullTitle": "Auth/Reset time PROJ-66 - Skipped test(3)",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "7f988741-8eed-4226-875d-d0d0a8c58402",
+              "parentUUID": "f9fd0f27-a157-4e0f-aa02-3d61e20cb26d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "b36a4d43-7263-4221-ba6a-0cdc5405b61f",
+            "67fbd0b5-4c98-4bde-baa8-ef903c52b105",
+            "7f988741-8eed-4226-875d-d0d0a8c58402"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 70000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 70000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

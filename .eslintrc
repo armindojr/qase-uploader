@@ -26,9 +26,6 @@
         "no-global-assign": [
             "warn"
         ],
-        "no-console": [
-            "off"
-        ],
         "camelcase": [
             "off"
         ],
